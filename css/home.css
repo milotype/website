@@ -388,7 +388,8 @@ ul.check {
 ul.check > li:before {
     /* FontAwesome Unicode for check icon */
     content: "\f00c";
-    font-family: FontAwesome;
+    font-family: "Font Awesome 5 Free";  /* updated font-family */
+    font-weight: 400; /* regular style/weight */
     display: inline-block;
     margin-left: 0;
     padding-left: 25px;
